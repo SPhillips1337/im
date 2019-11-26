@@ -1,0 +1,473 @@
+
+/*************************************************************************************/
+/* mobile layout styles */
+/*************************************************************************************/
+	body.mobile #landscapeWarning {
+		display:none;
+	}
+	
+	body.mobile #container
+	{
+		width:100%;
+		max-width:100%;
+		height:100%;
+		font-size:1em;
+	}
+	
+	/* header styles */
+
+	body.mobile div#headerContainer {
+		width:100%;
+		height:8%;
+		background:#000000;
+		position:absolute;
+		z-index:500;
+	}
+/*	
+	body.mobile div#headerTopContainer {
+		width:100%;
+		height:40%;
+		border-bottom:1% solid #666;
+		background:#000000;
+	}
+	
+	body.mobile div#logoText {
+		text-align:center;
+		width:100%;
+		height:40%;
+	}
+	
+	body.mobile div#logoText h5 {
+		color:#ffffff;
+		font-size:0.8em;
+		font-weight:normal;
+	}
+	
+	body.mobile div#logo {
+		margin-left:auto;
+		margin-right:auto;
+		width:46px;
+		height:40%;
+	}
+*/	
+	body.mobile div#headerBottomContainer {
+		margin:0px;
+		padding:0px;	
+		width:100%;
+		background:#000000;
+		height:100%;
+		padding-top:6px;
+		position:relative;
+		border-bottom:1% solid #666;
+	}
+	
+	body.mobile ul.headerLeft {
+		margin:0px;
+		padding:0px;
+		margin-left:2%;
+		list-style-type:none;
+		position:relative;
+		width:22%;
+		float:left;
+	}
+	
+	body.mobile ul.headerLeft img {
+		width:100%;	
+	}
+	
+	body.mobile ul.headerLeft li {
+		float:left;
+		margin:0px;
+		padding:0px;	
+		margin-right:6%;	
+		position:relative;
+		width:40%;
+	}
+	
+	body.mobile ul.headerSearch {
+		margin:0px;
+		padding:0px;	
+		margin-left:0px;
+		list-style-type:none;
+		position:relative;
+		float:right;	
+		width:22%;
+	}
+	
+	body.mobile ul.headerSearch li {
+		float:right;
+		margin:0px;
+		padding:0px;	
+		margin-right:6%;	
+		position:relative;
+		width:40%;
+	}
+	
+	body.mobile ul.headerSearch img {
+		width:100%;	
+	}
+	
+	body.mobile ul.headerSearch li#searchBoxContainer {
+		width:80%;	
+	}
+	
+	body.mobile ul.headerSearch li#searchBoxContainer img#searchBox {
+		width:100%;	
+	}
+	
+	body.mobile ul.headerRight {
+		margin:0px;
+		padding:0px;	
+		margin-right:0;
+		list-style-type:none;
+		position:relative;
+		width:22%;
+		float:right;	
+	}
+	
+	body.mobile ul.headerRight img {
+		width:100%;	
+	}
+	
+	body.mobile ul.headerRight li {
+		float:left;
+		margin:0px;
+		padding:0px;	
+		margin-right:6%;	
+		position:relative;
+		width:40%;
+	}
+	
+	body.mobile ul.headerRight li:last-child {
+		float:left;
+		margin-right:0px;	
+		position:relative;
+		width:40%;	
+	}
+	
+	body.mobile #menuContainer {
+		position:absolute;
+		display:none;
+		colour:#fff;
+		background:#000;
+		z-index:999;
+		left:3%;
+		top:12%;
+		font-size:1em;
+		padding:4%;				
+	}
+	
+	body.mobile #menuContainer ul {
+		list-style-type:none;	
+		margin:0;
+		padding:0;
+		padding-left:20%;
+		padding-right:24%;
+		padding-top:10%;
+		padding-bottom:10%;
+		width:60%;	
+	}
+	
+	body.mobile #menuContainer ul li {
+		float:none;
+		padding:0px;
+		margin:0px;
+		width:100%;
+	}
+	
+	body.mobile #menuContainer a:link, #menuContainer a:visited, #menuContainer a:active {
+		color:#fff;
+		text-decoration:none;
+	}
+
+	body.mobile #settingsContainer {
+		position:absolute;
+		right:3%;
+		top:12%;
+		display:none;
+		colour:#fff;
+		background:#000;
+		z-index:999;
+		font-size:1em;
+		padding:4%;
+	}
+	
+	body.mobile #settingsContainer ul {
+		list-style-type:none;
+		margin:0;
+		margin:0;
+		padding:0;
+		padding-left:20%;
+		padding-right:24%;
+		padding-top:10%;
+		padding-bottom:10%;	
+		width:60%;	
+	}
+	
+	body.mobile #settingsContainer ul li {
+		float:none;
+		padding:0px;
+		margin:0px;
+		width:100%;	
+	}
+	
+	body.mobile #settingsContainer a:link, #settingsContainer a:visited, #settingsContainer a:active {
+		color:#fff;
+		text-decoration:none;
+	}
+	
+	/* login form styles */
+	
+	body.mobile .loginFormContainer {
+		width:100%;
+	}
+	
+	body.mobile .loginFormContainerMain {
+		width:80%;margin-left:auto;margin-right:auto;
+	}
+	
+	body.mobile .loginFormContainer label 
+	{
+		display: block;
+	    float: left;
+	    width: 30%;
+	}
+	
+	body.mobile .loginFormContainer input 
+	{
+	    width: 58%;
+	}
+	
+	body.mobile .loginFormContainer .submitButtons a
+	{
+		text-decoration:none;
+		font-family: 'Oswald', sans-serif;
+	}
+	
+	
+	/* register form styles */
+	
+	body.mobile .registerForm label 
+	{
+		display: block;
+	    float: left;
+	    width: 30%;
+	}
+	
+	body.mobile .registerForm input 
+	{
+	    width: 58%;
+	}
+	
+	body.mobile .registerForm .submitButtons a
+	{
+		text-decoration:none;
+		font-family: 'Oswald', sans-serif;
+	}
+	
+	/* account form styles */
+	
+	body.mobile .accountForm label 
+	{
+		display: block;
+	    float: left;
+	    width: 30%;
+	}
+	
+	body.mobile .accountForm input 
+	{
+	    width: 58%;
+	}
+	
+	body.mobile .accountForm textarea 
+	{
+	    width: 58%;
+	    height: 20%;
+	}
+	
+	body.mobile .accountForm .submitButtons a
+	{
+		text-decoration:none;
+		font-family: 'Oswald', sans-serif;
+	}
+	
+	body.mobile .accountActions a {
+		text-decoration:none;
+	}
+	
+	/* profile styles */
+	
+	body.mobile .profilePhoto {
+		
+	}
+	
+	body.mobile .profileActions{
+		
+	}
+	
+	body.mobile .profileDetails {
+		
+	}
+	
+	
+	
+	/* submit button styles */
+	
+	body.mobile div.submitButtons input {
+		width:auto;
+	}
+	
+	/* page layout styles */
+	
+	body.mobile div#pageHeaderContainer {
+		width:100%;
+		height:8%;
+		background:#000000;
+		color:#fff;
+		text-align:center;
+		position:absolute;
+		top:8%;
+	}
+	
+	body.mobile div#pageHeaderContainer h3 {
+		margin:0px;
+		padding:0px;
+		padding-top:1%;
+	}
+	
+	body.mobile div#pageHeaderContainer #createPost {
+		float:right;
+		position:absolute;
+		top:14%;
+		right:2%;
+		width:15%;
+	}
+	
+	body.mobile div#pageHeaderContainer #createPost img {
+		width:100%;
+	}
+	
+	/* broadcasts layout styles */
+	
+	body.mobile div#broadcastContainer #postsContainer ul#posts {
+		list-style-type:none;
+		margin:0px;
+		padding:0px;
+	}
+	
+	body.mobile div#broadcastContainer #postsContainer ul#posts li:first-child {
+		padding-top:0px;
+		padding-bottom:10px;
+		border-bottom:1px solid #000;
+	}
+	
+	body.mobile div#broadcastContainer #postsContainer ul#posts li {
+		padding-top:10px;
+		padding-bottom:10px;
+		border-bottom:1px solid #000;
+	}
+	
+	body.mobile div#broadcastContainer #postsContainer ul#posts li div.postContent {
+		float:left;
+		width:90%;	
+	}
+	
+	body.mobile div#broadcastContainer #postsContainer ul#posts li div.postContent img {
+		float:left;
+		width:90%;	
+		margin-left:auto;
+		margin-right:auto;	
+	}
+	
+	body.mobile div#broadcastContainer #postsContainer ul#posts li div.authorImage {
+		float:left;
+		width:10%;	
+	}
+	
+	body.mobile div#broadcastContainer #postsContainer ul#posts li div.authorImage img {
+		float:left;
+		width:90%;		
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+	/* broadcast form styles */
+	
+	body.mobile .broadcastForm .submitButtons a
+	{
+		text-decoration:none;
+		font-family: 'Oswald', sans-serif;
+	}
+	
+	
+	body.mobile .pageContainer {
+		margin:0px;
+		padding:0px;
+		padding-left:4%;
+		padding-right:4%;
+		position:absolute;
+		top:16%;
+		height:80%;
+		overflow:hidden;
+		overflow-y:scroll;
+		width:92%;
+		font-family:Arial, Helvetica, Sans Serif;
+	}
+	
+	body.mobile .pageContentInner {
+		
+	}
+	
+	/* contact list layout styles */
+	
+	div#contactsContainer.itemContainer {
+		float:right;
+	}
+	
+	div#contactsContainer #contactItemsContainer ul#acceptedContactsList {
+		list-style-type:none;
+	}
+	
+	div#contactsContainer #contactItemsContainer ul#acceptedContactsList li {
+		list-style-type:none;
+		padding-top:10px;
+		padding-bottom:10px;
+		border-bottom:1px solid #000;
+	}
+	
+	div#contactsContainer div.contactName {
+		float:left;
+		width:274px;	
+	}
+	
+	div#contactsContainer div.contactImage {
+		float:left;
+		width:84px;	
+	}
+	
+	#acceptedContactsList a {
+		text-decoration:none;
+	}
+
+	body.mobile #footer {
+		display:none;
+	}
+
+
+/* general container layout styles */
+
+	/* user message alerts styles */
+	div#userMessageContainer {
+		background: none repeat scroll 0 0 #DEDEDE;
+	    height: 100px;
+	    left: 40%;
+	    margin-left: auto;
+	    margin-right: auto;
+	    position: absolute;
+	    top: 25%;
+	    width: 20%;
+	    padding:10px;
+	    z-index:999;
+	}
+
+	

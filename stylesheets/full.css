@@ -1,0 +1,520 @@
+html {
+	height:100%;
+	width:100%;	
+}
+
+body {
+	font-family: 'Oswald', sans-serif;
+	width:100%;
+	height:100%;
+}
+
+
+/* framework structure layout element styles */
+#wrapper
+{
+	width:100%;
+	height:100%;
+}
+
+
+/*************************************************************************************/
+/* desktop layout styles */
+/*************************************************************************************/
+
+#container
+{
+	height:100%;
+	width:100%;
+	max-width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+}
+
+/* header styles */
+
+div#headerContainer {
+	width:100%;
+	height:38px;
+	background:#000000;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+/*
+div#headerTopContainer {
+	width:100%;
+	height:20px;
+	border-bottom:2px solid #666;
+	background:#000000;
+}
+
+div#logoText {
+	text-align:center;
+	width:100%;
+	height:19px;
+}
+
+div#logoText h5 {
+	color:#ffffff;
+	font-size:0.8em;
+	font-weight:normal;
+}
+
+div#logo {
+	margin-left:auto;
+	margin-right:auto;
+	width:46px;
+	height:19px;
+}
+*/
+div#headerBottomContainer {
+	margin:0px;
+	padding:0px;	
+	width:100%;
+	background:#000000;
+	height:32px;
+	padding-top:6px;
+	position:relative;
+}
+
+ul.headerLeft {
+	float:left;
+	margin:0px;
+	padding:0px;
+	margin-left:6px;
+	list-style-type:none;
+	position:relative;
+}
+
+ul.headerLeft li {
+	float:left;
+	margin:0px;
+	padding:0px;	
+	margin-right:8px;	
+	position:relative;
+}
+
+ul.headerSearch {
+	float:right;
+	margin:0px;
+	padding:0px;	
+	margin-left:0px;
+	list-style-type:none;
+	position:relative;
+}
+
+ul.headerSearch li {
+	float:left;
+	margin:0px;
+	padding:0px;	
+	margin-right:8px;	
+	position:relative;
+}
+
+ul.headerRight {
+	float:right;	
+	margin:0px;
+	padding:0px;	
+	margin-right:6px;
+	list-style-type:none;
+	position:relative;
+}
+
+ul.headerRight li {
+	float:left;
+	margin:0px;
+	padding:0px;	
+	margin-right:8px;	
+	position:relative;
+}
+
+ul.headerRight li:last {
+	float:left;
+	margin-right:0px;	
+	position:relative;
+}
+
+/* header menu styles */
+#menuContainer {
+	position:absolute;
+	left:0px;
+	display:none;
+	colour:#fff;
+	background:#000;
+	z-index:999;
+	top:58px;
+	font-size:1em;
+	padding:10px;	
+}
+
+#menuContainer ul {
+	list-style-type:none;
+	margin:0;
+	padding:20%;		
+}
+
+#menuContainer ul li {
+	float:none;
+}
+
+#menuContainer a:link, #menuContainer a:visited, #menuContainer a:active {
+	color:#fff;
+	text-decoration:none;
+}
+
+#settingsContainer {
+	position:absolute;
+	right:0px;
+	display:none;
+	colour:#fff;
+	background:#000;
+	z-index:999;
+	top:58px;
+	font-size:1em;
+	padding:10px;	
+}
+
+#settingsContainer ul {
+	list-style-type:none;	
+	margin:0;
+	padding:20%;	
+}
+
+#settingsContainer ul li {
+	float:none;
+}
+
+#settingsContainer a:link, #settingsContainer  a:visited, #settingsContainer a:active {
+	color:#fff;
+	text-decoration:none;
+}
+
+/* login form styles */
+
+.loginFormContainer {
+	width:400px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.loginFormContainerMain {
+	width:300px;
+}
+
+.loginFormContainer label 
+{
+	display: block;
+    float: left;
+    width: 80px;
+}
+
+.loginFormContainer input 
+{
+    width: 200px;
+}
+
+.loginFormContainer .submitButtons a
+{
+	text-decoration:none;
+	font-family: 'Oswald', sans-serif;
+}
+
+/* footer styles */
+
+div#footer {
+	margin:0px;
+	padding:0px;
+	padding-top:8px;
+	padding-left:0px;
+	padding-right:0px;	
+	position:absolute;
+	bottom:0px;
+	height:28px;
+	width:100%;
+	background:#000000;
+	color:#ffffff;
+	font-family:Arial, Helvetica, Sans Serif;
+	font-size:0.8em;
+
+}
+
+div#footer a:link,div#footer a:visited {
+	color:#ffffff;
+	text-decoration:none;
+}
+
+div#footer a:hover {
+	text-decoration:underline;
+}
+
+div#footerLeft {
+	float:left;
+	padding-left:10px;
+}
+
+div#footerRight {
+	float:right;
+	padding-right:10px;
+}
+
+/* register form styles */
+
+.registerForm label 
+{
+	display: block;
+    float: left;
+    width: 80px;
+}
+
+.registerForm input 
+{
+    width: 280px;
+}
+
+.registerForm .submitButtons a
+{
+	text-decoration:none;
+	font-family: 'Oswald', sans-serif;
+}
+
+/* account form styles */
+
+.accountForm label 
+{
+	display: block;
+    float: left;
+    width: 80px;
+}
+
+.accountForm input 
+{
+    width: 280px;
+}
+
+.accountForm .submitButtons a
+{
+	text-decoration:none;
+	font-family: 'Oswald', sans-serif;
+}
+
+.accountActions a {
+	text-decoration:none;
+}
+
+/* profile styles */
+
+.profilePhoto {
+	
+}
+
+.profileActions{
+	
+}
+
+.profileDetails {
+	
+}
+
+
+
+/* submit button styles */
+
+div.submitButtons input {
+	width:auto;
+}
+
+/* page layout styles */
+
+div#pageHeaderContainer {
+	width:100%;
+	height:40px;
+	background:#000000;
+	color:#fff;
+	text-align:left;
+	position:absolute;
+	top:38px;
+	left:0px;
+}
+
+div#pageHeaderContainer h3 {
+	margin:0px;
+	padding:0px;
+	padding-top:4px;
+	padding-left:4px;
+}
+
+div#pageHeaderContainer div.right {
+	padding-right:10px;
+}
+
+div#pageHeaderContainer a:link, div#pageHeaderContainer a:visited, div#pageHeaderContainer a:active {
+	color:#fff;
+	text-decoration:none;
+}
+
+div#pageHeaderContainer a:hover {
+	color:#fff;
+	text-decoration:underline;
+}
+
+div#pageHeaderContainer #createPost {
+	float:right;
+	position:absolute;
+	top:4px;
+	right:8px;
+}
+
+/* broadcasts layout styles */
+
+div#broadcastContainer #postsContainer ul#posts {
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+
+div#broadcastContainer #postsContainer ul#posts li:first-child {
+	padding-top:0px;
+	padding-bottom:10px;
+	border-bottom:1px solid #000;
+}
+
+div#broadcastContainer #postsContainer ul#posts li {
+	padding-top:10px;
+	padding-bottom:10px;
+	border-bottom:1px solid #000;
+}
+
+div#broadcastContainer #postsContainer ul#posts li div.postContent {
+	float:left;
+	width:274px;	
+}
+
+div#broadcastContainer #postsContainer ul#posts li div.authorImage {
+	float:left;
+	width:84px;	
+}
+
+/* broadcast form styles */
+
+.broadcastForm .submitButtons a
+{
+	text-decoration:none;
+	font-family: 'Oswald', sans-serif;
+}
+
+.pageContainer {
+	margin:0px;
+	padding:0px;
+	padding-top:10px;
+	padding-bottom:10px;
+	position:relative;
+	top:78px;
+	font-family:Arial, Helvetica, Sans Serif;
+	overflow:hidden;
+}
+
+
+/* contact list layout styles */
+
+div#contactsContainer.itemContainer {
+	float:right;
+}
+
+div#contactsContainer #contactItemsContainer ul#acceptedContactsList {
+	list-style-type:none;
+}
+
+div#contactsContainer #contactItemsContainer ul#acceptedContactsList li {
+	list-style-type:none;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-bottom:1px solid #000;
+}
+
+div#contactsContainer div.contactName {
+	float:left;
+	width:274px;	
+}
+
+div#contactsContainer div.contactImage {
+	float:left;
+	width:84px;	
+}
+
+#acceptedContactsList a {
+	text-decoration:none;
+}
+
+/* general container layout styles */
+
+div.itemContainer {
+	margin:0px;	
+	padding:0px;
+	padding-top:0px;	
+	width:430px;
+	float:left;
+	overflow:hidden;
+	overflow-y:scroll;
+}
+
+div.itemContainer h2 {
+	text-transform:uppercase;
+}
+
+
+div.itemInnerContainer {
+	margin:0px;
+	padding:0px;
+			
+	padding-left:10px;
+	padding-right:10px;	
+	width:400px;
+	height:auto;
+}
+
+div#loginContainer.itemContainer {
+	overflow:hidden;	
+	float:none;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+div#registerContainer.itemContainer {
+	overflow:hidden;	
+	float:none;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+div#homeContainer.itemContainer {
+	overflow:hidden;
+}
+
+div#termsContainer.itemContainer {
+	overflow-y:scroll;	
+	float:none;
+}
+
+div#privacyContainer.itemContainer {
+	overflow-y:scroll;	
+	float:none;
+}
+
+
+/* user message alerts styles */
+div#userMessageContainer {
+	background: none repeat scroll 0 0 #DEDEDE;
+    height: 100px;
+    left: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 25%;
+    width: 20%;
+    padding:10px;
+    z-index:999;
+}
+
+/*************************************************************************************/
